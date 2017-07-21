@@ -46,5 +46,3 @@
 ## ¿Tienes tiempo todavía?  
 - Agregar un Custom Post Type llamado "Noticias"
 - Crea un template single-news.php donde el contenido sea Fullwidth, es decir, eliminar el Sidebar
-
-
