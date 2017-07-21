@@ -27,8 +27,8 @@
 	- Quita la información de autor y comentarios del loop. 
 	- Al botón *Leer Más* agregar la clase .boton-rojo además de .read-	  more
 - Toma una captura de pantalla de la página de inicio. Guarda el archivo para después.
-- Vamos a agregar <https://github.com/zurb/twentytwenty>. Para facilitar la tarea vamos a incluir el archivo *script.php* al final del archivo *page.php* utilizando la función `<?php get_template_part('_includes/script'); ?>`
-	> Hint: No olvide subir el archivo en la carpeta correspondiente según la función. En el ejemplo _includes.
+- Vamos a agregar <https://github.com/zurb/twentytwenty>. Para facilitar la tarea vamos a incluir el archivo *script.php* al final del archivo *page.php*.
+	> Hint: Debes subir los archivos .php, .js y .css en las carpetas correspondientes según el archivo script.php.
 	
 	>Avanzado: Se puede realizar la misma tarea agregando los CSS y JS utilizando las funciones de Wordpress. Luego inicializando solamente en el archivo *script.php*.
 	
