@@ -3,6 +3,8 @@
 
 # Actividad Presencial 1 de Wordpress
 
+https://github.com/DesafioLatam/Blearning-Frontend-E21CP1A1
+
 ## Ejercicio - Trabajando con plantilla
 
 - Instalar AMP en computador
