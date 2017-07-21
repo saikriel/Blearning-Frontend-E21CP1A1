@@ -33,12 +33,13 @@
 	>Avanzado: Se puede realizar la misma tarea agregando los CSS y JS utilizando las funciones de Wordpress. Luego inicializando solamente en el archivo *script.php*.
 	
 - Crea una página nueva llamada "Antes y después", en la pestaña HTML del editor copia el siguiente código. Modifica las imágenes por las capturas de pantalla tomadas usando *Añadir Objeto*.
->```html
+
+```html
 <div id="container1">
  <!-- The before image is first -->
- <img src="http://placehold.it/400x200&amp;text=1" />
+ <img src="http://tu-imagen" />
  <!-- The after image is last -->
- <img src="http://placehold.it/400x200&amp;text=2" />
+ <img src="http://tu-imagen-2" />
 </div>
 ```
 
