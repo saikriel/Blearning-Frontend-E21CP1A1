@@ -3,7 +3,7 @@
 
 # Actividad Presencial 1 de Wordpress
 
-https://github.com/DesafioLatam/Blearning-Frontend-E21CP1A1
+<https://github.com/DesafioLatam/Blearning-Frontend-E21CP1A1>
 
 ## Ejercicio - Trabajando con plantilla
 
@@ -18,22 +18,30 @@ https://github.com/DesafioLatam/Blearning-Frontend-E21CP1A1
 	<https://codex.wordpress.org/Function_Reference/get_theme_mod>
 	
 - Agregar estilo custom.css en una carpeta */css* dentro de la plantilla. Insertar estilo dentro de la plantilla utilizando la función `wp_enqueue_style()`.
--  Cambiar la tipografía de todo el sitio a <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a> agregando código en *header.php* y estilo en *custom.css*
+-  Cambiar la tipografía de todo el sitio a <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a> cargando el código con la función `wp_enqueue_style()` y llamando la tipografía en el archivo *custom.css*
+
+> HINT: la url del css de la tipografía es: `https://fonts.googleapis.com/css?family=Lato`
+
 - Modificar copywrite del sitio en el archivo *footer.php*  por la frase "Sitio desarrollado para Bootcamp de Desafío Latam"
 - Crea una página llamada Noticias utilizando el page template Blog
-> Hint: Busca en el editor de la página *Atributos de la página*
+
+> HINT: Al crear la página tendrás la posibilidad de seleccionar el template en los *Atributos de la página* o *Page Attributes*
+
 - Crea un nuevo menú en *Apariencia > Menús* que contenga la página Noticias e Inicio. Agrégalo a la cabecera 
 - Borra las entradas y páginas por defecto. Agrega 2 post más con imagen destacada y categoría *Deportes*. Una de ellas debe incluir una galería de Wordpress.
-> Hint: Para crear una galería busca *Añadir Objeto* en el costado izquierdo encontrarás *Crear Galería*
+
+> HINT: Para crear una galería busca *Añadir Objeto* o *Añadir multimedia* en el costado izquierdo encontrarás *Crear Galería*
+
 - Modifica el Loop de la plantilla Blog en el archivo *page-blog.php*
 	- Agrega el link del post a la imagen destacada.
 	- Quita la información de autor y comentarios del loop. 
 	- Al botón *Leer Más* agregar la clase .boton-rojo además de .read-	  more
 - Toma una captura de pantalla de la página de inicio. Guarda el archivo para después.
-- Vamos a agregar <https://github.com/zurb/twentytwenty>. Para facilitar la tarea vamos a incluir el archivo *script.php* al final del archivo *page.php*.
-	> Hint: Debes subir los archivos .php, .js y .css en las carpetas correspondientes según el archivo script.php.
+- Vamos a agregar <https://github.com/zurb/twentytwenty>. Si revisas la documentación, para que funcione en el sitio hay que agregar archivos CSS, JS e inicializar. Para facilitar esta tarea vamos a incluir el archivo *script.php* (se encuentra en el repositorio de la actividad carpeta Ejercicio) al final del archivo *page.php*. Si revisan el archivo *script.php* se darán cuenta que incluye todos los elementos necesarios para que funcione.
+
+	> HINT: Debes subir los archivos .php, .js y .css en las carpetas correspondientes según el archivo script.php.
 	
-	>Avanzado: Se puede realizar la misma tarea agregando los CSS y JS utilizando las funciones de Wordpress. Luego inicializando solamente en el archivo *script.php*.
+	>AVANZADO: Se puede realizar la misma tarea agregando los CSS y JS utilizando las funciones de Wordpress. Luego inicializando solamente en el archivo *script.php*.
 	
 - Crea una página nueva llamada "Antes y después", en la pestaña HTML del editor copia el siguiente código. Modifica las imágenes por las capturas de pantalla tomadas usando *Añadir Objeto*.
 
