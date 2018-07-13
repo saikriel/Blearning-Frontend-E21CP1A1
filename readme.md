@@ -9,7 +9,7 @@
 
 - Instalar AMP en computador
 - Descargar Wordpress desde <https://www.wordpress.org/>. Instalar en Local.
-- Cargar plantilla Layeria Lite <https://cl.wordpress.org/themes/lawyeria-lite/>
+- Cargar plantilla Layeria Lite <https://wordpress.org/themes/lawyeriax-lite/>
 - Instalar y Activar plugins recomendados por plantilla *Apariencia>Instalar Plugins*
 - Toma una captura de pantalla de la página de inicio. Guarda el archivo para después.
 - Modificar el contenido de la Página de Inicio
